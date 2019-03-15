@@ -1,0 +1,292 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+.wf-hannari { font-family: "Hannari"; }
+
+
+header{
+    width: 200px;
+    height: 100vh;
+    position:fixed; 
+    overflow: hidden;
+    background-color: #fff;
+}
+
+ul{
+    display: block;
+    list-style: none;
+    text-align: center;
+    line-height: 24px;
+}
+
+li{
+    display: list-item;
+}
+
+header a{
+    text-decoration: none;
+    color: #000;
+    
+}
+.icon{
+    width: 200px;
+}
+
+.icon img{
+    margin: 100px 5px;
+}
+
+
+section{
+    height: 100vh;
+    background-image: url(Links/p0026_m.jpeg);
+}
+
+.container{    
+    width: 1028px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.naramachi-title{
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    float: right;
+    z-index: 1;
+    position: relative;
+}
+
+.naramachi-title h1 {
+   font-size: 108px;
+    float: right;    
+}
+
+.header-image{
+    
+}
+
+.header-image img{
+    position: absolute;
+    bottom: 0;
+    margin-left: 40px;
+        
+}
+
+#header text{
+    background-color: #fff;
+    font-size: 18px;
+}
+.text-contents{
+    position: absolute;
+    bottom: 0;
+
+}
+
+.header-text p{
+    background-color: #fff;
+    display: inline;
+}
+.section-title{
+    text-align: center;
+    padding-top: 32px;
+}
+
+
+/*food-title*/
+
+.content{
+    width: 300px;
+    height: 300px;
+    position: relative;
+/*    float: left;*/
+}
+
+.contents2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    /*    float: left;*/
+}
+
+
+.content img{
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+/*    float: left;*/
+    
+}
+
+.content p{
+    text-align: center;
+}
+
+.food-text1{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.food-text2{
+    position: absolute; 
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+/*sightseeing*/
+
+#sightseeing{
+    background-color: #f6e4ca;
+    height: 300vh;
+}
+
+.sightseeing-contents1{
+    padding-left: 15px;
+    padding-top: 40px; 
+    width: 710px;
+    height: 320px;
+    position: relative;
+    float: left;
+}
+
+.sightseeing-contents2{
+    padding-left: 15px;
+    padding-top: 40px; 
+    width: 710px;
+    height: 320px;
+    position: relative;
+    float: right;
+    overflow: hidden;
+    
+}
+
+
+
+.sightseeing-contents3{
+    padding-left: 15px;
+    padding-top: 40px; 
+    width: 710px;
+    height: 320px;
+    position: relative;
+    float: left;
+}
+.sightseeing-contents4{
+    padding-left: 15px;
+    padding-top: 40px; 
+    width: 710px;
+    height: 320px;
+    position: relative;
+    float: right;
+    
+}
+.sightseeing-contents5{
+    padding-left: 15px;
+    padding-top: 40px; 
+    width: 710px;
+    height: 320px;
+    position: relative;
+    float: left;
+}
+.sightseeing-contents6{
+    padding-left: 15px;
+    padding-top: 40px; 
+    width: 710px;
+    height: 320px;
+    position: relative;
+    float: right;
+}
+
+sightseeing-picture{
+    float: left;
+}
+
+
+.sightseeing-picture img {
+    width:448px;
+    height:300px;
+    border-radius: 48px;
+    
+}
+
+.sightseeing-caption-nest{
+/*
+    width: 261px;
+    height: 190px;
+*/
+    position: absolute;
+    top:40px;
+    right: 50px;
+}
+
+
+.sightseeing-caption{
+    width: 261px;
+    height: 190px;
+    position: relative;
+    float:left; 
+}
+
+
+.sightseeing-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);  
+}
+.sightseeing-location{
+    width: 24px;
+    position: absolute;
+    left: 36px;
+    top: 48px;
+}
+.sightseeing-text h2{
+font-size: 23px;
+}
+
+
+
+
+/*accommodation*/
+#accommodations{
+    height:300vh;
+}
+#accommodations h1{
+    font-size: 24px;
+}
+#accommodations p{
+    font-size: 18px;
+}
+.accommodations-text{
+    margin-bottom: 100px;
+}
+ 
+.accommodation-content{
+   
+   height: 600px;
+    
+}
+
+.left-contents{
+    height: 557px;
+    float: left;
+}
+
+.accommodations-text{
+    text-align: center;
+}
+.insta-messeage{
+    text-align: center;
+    font-size: 24px;
+}
