@@ -39,6 +39,11 @@ body {
     font-family: "游ゴシック体", YuGothic;
 }
 
+section {
+    width: 100vw;
+    overflow: hidden;
+}
+
 
 ul {
     display: block;
