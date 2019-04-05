@@ -569,4 +569,17 @@ right-contents2 img {
     section{
         overflow: visible;
     }
+    
+    #food{
+        height: 170vh;
+    }
+    
+    #sightseeing{
+        height: 370vh;
+    }
+    
+    #accommodations {
+        height: 320vh;
+    }
+}
 
