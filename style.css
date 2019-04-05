@@ -563,3 +563,10 @@ right-contents2 img {
     transform: translateY(20px);
     transition: all 1s;
 }
+
+@media screen and (max-width: 499px) { 
+
+    section{
+        overflow: visible;
+    }
+
